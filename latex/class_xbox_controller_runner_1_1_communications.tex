@@ -1,0 +1,119 @@
+\hypertarget{class_xbox_controller_runner_1_1_communications}{}\section{Xbox\+Controller\+Runner.\+Communications Class Reference}
+\label{class_xbox_controller_runner_1_1_communications}\index{Xbox\+Controller\+Runner.\+Communications@{Xbox\+Controller\+Runner.\+Communications}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{class_xbox_controller_runner_1_1_communications_af73bf2f7be5eddad52652303f0c54bd6}{\+\_\+\+\_\+init\+\_\+\+\_\+}} (self)
+\item 
+def \mbox{\hyperlink{class_xbox_controller_runner_1_1_communications_a5826b178d9c90e3b89156704d48e7a4f}{\+\_\+\+\_\+del\+\_\+\+\_\+}} (self)
+\item 
+def \mbox{\hyperlink{class_xbox_controller_runner_1_1_communications_a091dd6d34bf96a15c67a8e87d7333515}{get\+Listof\+Ports}} (self)
+\item 
+def \mbox{\hyperlink{class_xbox_controller_runner_1_1_communications_a5a633896f720056b6d07bfbe0e435e16}{open\+Port}} (self, port\+\_\+name=\char`\"{}C\+O\+M7\char`\"{})
+\item 
+def \mbox{\hyperlink{class_xbox_controller_runner_1_1_communications_a7bde537bb8a2b4079a8957a2a9f4331e}{send\+Data}}
+\item 
+def \mbox{\hyperlink{class_xbox_controller_runner_1_1_communications_a100a64229f39d8fa0fb7801a22104412}{get\+Bytes\+Available\+To\+Read}} (self)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_xbox_controller_runner_1_1_communications_a37dd3a39cfb67c171a4f639e9c24176a}{Serial\+Port}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}This class is the communications class and takes care of all of the Arduino interactions\end{DoxyVerb}
+ 
+
+Definition at line 300 of file Xbox\+Controller\+Runner.\+py.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_xbox_controller_runner_1_1_communications_af73bf2f7be5eddad52652303f0c54bd6}\label{class_xbox_controller_runner_1_1_communications_af73bf2f7be5eddad52652303f0c54bd6}} 
+\index{Xbox\+Controller\+Runner\+::\+Communications@{Xbox\+Controller\+Runner\+::\+Communications}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!Xbox\+Controller\+Runner\+::\+Communications@{Xbox\+Controller\+Runner\+::\+Communications}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Xbox\+Controller\+Runner.\+Communications.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}This constructor creates the communication class\end{DoxyVerb}
+ 
+
+Definition at line 302 of file Xbox\+Controller\+Runner.\+py.
+
+\mbox{\Hypertarget{class_xbox_controller_runner_1_1_communications_a5826b178d9c90e3b89156704d48e7a4f}\label{class_xbox_controller_runner_1_1_communications_a5826b178d9c90e3b89156704d48e7a4f}} 
+\index{Xbox\+Controller\+Runner\+::\+Communications@{Xbox\+Controller\+Runner\+::\+Communications}!\+\_\+\+\_\+del\+\_\+\+\_\+@{\+\_\+\+\_\+del\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+del\+\_\+\+\_\+@{\+\_\+\+\_\+del\+\_\+\+\_\+}!Xbox\+Controller\+Runner\+::\+Communications@{Xbox\+Controller\+Runner\+::\+Communications}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+del\+\_\+\+\_\+()}{\_\_del\_\_()}}
+{\footnotesize\ttfamily def Xbox\+Controller\+Runner.\+Communications.\+\_\+\+\_\+del\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}This function closes the serial port\end{DoxyVerb}
+ 
+
+Definition at line 310 of file Xbox\+Controller\+Runner.\+py.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_xbox_controller_runner_1_1_communications_a100a64229f39d8fa0fb7801a22104412}\label{class_xbox_controller_runner_1_1_communications_a100a64229f39d8fa0fb7801a22104412}} 
+\index{Xbox\+Controller\+Runner\+::\+Communications@{Xbox\+Controller\+Runner\+::\+Communications}!get\+Bytes\+Available\+To\+Read@{get\+Bytes\+Available\+To\+Read}}
+\index{get\+Bytes\+Available\+To\+Read@{get\+Bytes\+Available\+To\+Read}!Xbox\+Controller\+Runner\+::\+Communications@{Xbox\+Controller\+Runner\+::\+Communications}}
+\subsubsection{\texorpdfstring{get\+Bytes\+Available\+To\+Read()}{getBytesAvailableToRead()}}
+{\footnotesize\ttfamily def Xbox\+Controller\+Runner.\+Communications.\+get\+Bytes\+Available\+To\+Read (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}This function reads the bytes\end{DoxyVerb}
+ 
+
+Definition at line 331 of file Xbox\+Controller\+Runner.\+py.
+
+\mbox{\Hypertarget{class_xbox_controller_runner_1_1_communications_a091dd6d34bf96a15c67a8e87d7333515}\label{class_xbox_controller_runner_1_1_communications_a091dd6d34bf96a15c67a8e87d7333515}} 
+\index{Xbox\+Controller\+Runner\+::\+Communications@{Xbox\+Controller\+Runner\+::\+Communications}!get\+Listof\+Ports@{get\+Listof\+Ports}}
+\index{get\+Listof\+Ports@{get\+Listof\+Ports}!Xbox\+Controller\+Runner\+::\+Communications@{Xbox\+Controller\+Runner\+::\+Communications}}
+\subsubsection{\texorpdfstring{get\+Listof\+Ports()}{getListofPorts()}}
+{\footnotesize\ttfamily def Xbox\+Controller\+Runner.\+Communications.\+get\+Listof\+Ports (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}This function returns all of the ports\end{DoxyVerb}
+ 
+
+Definition at line 315 of file Xbox\+Controller\+Runner.\+py.
+
+\mbox{\Hypertarget{class_xbox_controller_runner_1_1_communications_a5a633896f720056b6d07bfbe0e435e16}\label{class_xbox_controller_runner_1_1_communications_a5a633896f720056b6d07bfbe0e435e16}} 
+\index{Xbox\+Controller\+Runner\+::\+Communications@{Xbox\+Controller\+Runner\+::\+Communications}!open\+Port@{open\+Port}}
+\index{open\+Port@{open\+Port}!Xbox\+Controller\+Runner\+::\+Communications@{Xbox\+Controller\+Runner\+::\+Communications}}
+\subsubsection{\texorpdfstring{open\+Port()}{openPort()}}
+{\footnotesize\ttfamily def Xbox\+Controller\+Runner.\+Communications.\+open\+Port (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{port\+\_\+name = {\ttfamily \char`\"{}COM7\char`\"{}} }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}This function opens the specified port\end{DoxyVerb}
+ 
+
+Definition at line 322 of file Xbox\+Controller\+Runner.\+py.
+
+\mbox{\Hypertarget{class_xbox_controller_runner_1_1_communications_a7bde537bb8a2b4079a8957a2a9f4331e}\label{class_xbox_controller_runner_1_1_communications_a7bde537bb8a2b4079a8957a2a9f4331e}} 
+\index{Xbox\+Controller\+Runner\+::\+Communications@{Xbox\+Controller\+Runner\+::\+Communications}!send\+Data@{send\+Data}}
+\index{send\+Data@{send\+Data}!Xbox\+Controller\+Runner\+::\+Communications@{Xbox\+Controller\+Runner\+::\+Communications}}
+\subsubsection{\texorpdfstring{send\+Data()}{sendData()}}
+{\footnotesize\ttfamily def Xbox\+Controller\+Runner.\+Communications.\+send\+Data (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{vals }\end{DoxyParamCaption})}
+
+
+
+Definition at line 327 of file Xbox\+Controller\+Runner.\+py.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_xbox_controller_runner_1_1_communications_a37dd3a39cfb67c171a4f639e9c24176a}\label{class_xbox_controller_runner_1_1_communications_a37dd3a39cfb67c171a4f639e9c24176a}} 
+\index{Xbox\+Controller\+Runner\+::\+Communications@{Xbox\+Controller\+Runner\+::\+Communications}!Serial\+Port@{Serial\+Port}}
+\index{Serial\+Port@{Serial\+Port}!Xbox\+Controller\+Runner\+::\+Communications@{Xbox\+Controller\+Runner\+::\+Communications}}
+\subsubsection{\texorpdfstring{Serial\+Port}{SerialPort}}
+{\footnotesize\ttfamily Xbox\+Controller\+Runner.\+Communications.\+Serial\+Port}
+
+
+
+Definition at line 304 of file Xbox\+Controller\+Runner.\+py.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_xbox_controller_runner_8py}{Xbox\+Controller\+Runner.\+py}}\end{DoxyCompactItemize}
